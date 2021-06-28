@@ -106,6 +106,7 @@ void XOptions::load()
                 case ID_SEARCHSIGNATURESPATH:   varDefault="$data/signatures";      break;
                 case ID_AUTHUSER:               varDefault="";                      break;
                 case ID_AUTHTOKEN:              varDefault="";                      break;
+                case ID_CACHEDJSON:             varDefault="";                      break;
                 default:                        varDefault="";
             }
         }
@@ -189,6 +190,7 @@ QString XOptions::idToString(ID id)
         case ID_ROOTPATH:                   sResult=QString("RootPath");                    break;
         case ID_DATAPATH:                   sResult=QString("DataPath");                    break;
         case ID_JSON:                       sResult=QString("Json");                        break;
+        case ID_CACHEDJSON:                 sResult=QString("CachedJson");                  break;
         case ID_SINGLEAPPLICATION:          sResult=QString("SingleApplication");           break;
         case ID_SEARCHSIGNATURESPATH:       sResult=QString("SearchSignaturesPath");        break;
         case ID_AUTHUSER:                   sResult=QString("AuthUser");                    break;

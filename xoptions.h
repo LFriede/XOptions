@@ -63,7 +63,8 @@ public:
         ID_SINGLEAPPLICATION,
         ID_SEARCHSIGNATURESPATH,
         ID_AUTHUSER,
-        ID_AUTHTOKEN
+        ID_AUTHTOKEN,
+        ID_CACHEDJSON
     };
 
     explicit XOptions(QObject *pParent=nullptr);
